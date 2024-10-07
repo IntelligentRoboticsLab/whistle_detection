@@ -1,0 +1,13 @@
+[package]
+name = "nao_whistle_detect"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+apodize = "1.0.0"
+hound = "3.5.1"
+rustfft = "6.2.0"
+serde = { version="1.0.203", features=["derive"] }
+serde_json = "1.0.117"
